@@ -150,7 +150,7 @@ background contrast. All other values default to \"medium\"."
    (company-scrollbar-bg :background base3)
    (company-scrollbar-fg :background cyan)
    (company-tooltip-selection :background bg-alt2)
-   (company-tooltip-mouse :background bg-alt2 :foreground nil)
+   (company-tooltip-mouse :background bg-alt2 :foreground 'unspecified)
    ;;;; css-mode <built-in> / scss-mode
    (css-proprietary-property :foreground keywords)
    ;;;; doom-emacs

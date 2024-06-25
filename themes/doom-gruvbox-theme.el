@@ -150,7 +150,7 @@ background contrast. All other values default to \"medium\"."
    (company-scrollbar-bg :background base3)
    (company-scrollbar-fg :background cyan)
    (company-tooltip-selection :background bg-alt2)
-   (company-tooltip-mouse :background bg-alt2 :foreground nil)
+   (company-tooltip-mouse :background bg-alt2 :foreground 'unspecified)
    ;;;; css-mode <built-in> / scss-mode
    (css-proprietary-property :foreground keywords)
    ;;;; doom-emacs
@@ -270,8 +270,8 @@ background contrast. All other values default to \"medium\"."
    (rainbow-delimiters-depth-3-face :foreground green)
    (rainbow-delimiters-depth-4-face :foreground blue)
    ;;;; show-paren <built-in>
-   ((show-paren-match &override) :foreground nil :background base5 :bold t)
-   ((show-paren-mismatch &override) :foreground nil :background "red")
+   ((show-paren-match &override) :foreground 'unspecified :background base5 :bold t)
+   ((show-paren-mismatch &override) :foreground 'unspecified :background "red")
    ;;;; swiper
    (swiper-line-face :background bg-alt2)
    ;;;; undo-tree
